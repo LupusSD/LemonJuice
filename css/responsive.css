@@ -1,0 +1,152 @@
+@media screen and (max-width: 1240px) {
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        float: none;
+      }
+
+    .contacts {
+        margin-left: 0;
+        float: none;
+    }
+
+    .head_nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .head_nav a {
+        display: block;
+        float: none;
+        margin-right: 0;
+        margin-top: 25px;
+    }
+
+    .btn {
+        float: none;
+        margin-right: 0;
+    }
+
+    .btn_img {
+        float: none;
+    }
+
+    .about_blocks {
+        width: 100%;
+    }
+
+    .mission_text div, .success_text div {
+        width: 100%;
+        height: 750px;
+        margin: 0;
+    }
+
+    .mission_text h2, .success_text h2 {
+        padding: 120px 20px 40px 20px;
+    }
+
+    .mission_text p, .success_text p {
+        padding: 0 20px 0 20px;
+    }
+
+    .mission_text button {
+  margin: 35px 0 0 20px;
+    }
+
+    .success_text a {
+        margin-left: 20px;
+    }
+
+
+    .statistic article {
+        width: 100%;
+    }
+
+    .news_blocks {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .news_blocks div:last-child {
+        display: none;
+    }
+
+    .test_blocks {
+        width: 100%;
+        height: 570px;
+        display: block;
+        padding-top: 0;
+    }
+
+    .test_block {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .test_h2 {
+        height: 55px;
+        margin: 0 auto;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .test_active {
+        width: 100%;
+        justify-content: space-evenly;
+      }
+
+    .test_cont {
+        width: 100%;
+        margin: 40px auto 0 auto;
+    }
+
+    .test_cont2 {
+        float: none;
+        margin: 0 auto;
+      }
+
+    .test_left {
+        left: 5%;
+      }
+      
+      .test_right {
+        left: 95%;
+      }
+
+      .questions_text div {
+        width: 100%;
+        margin-left: 0;
+      }
+
+      .questions_text h2 {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 0;
+      }
+
+    .subscribe div {
+        width: 100%;
+    }
+
+    .footer_cont {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .container {
+        display: block;
+    }
+
+    .contacts {
+        margin-left: 0;
+    }
+
+}
